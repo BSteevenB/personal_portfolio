@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f8f9fa" />
+    
+    <!-- Chat Interface Container -->
+    <rect x="50" y="50" width="700" height="500" rx="20" fill="white" stroke="#e0e0e0" stroke-width="2" />
+    
+    <!-- Header -->
+    <rect x="50" y="50" width="700" height="80" rx="20" fill="#2c3e50" />
+    
+    <!-- Bot Avatar -->
+    <circle cx="100" cy="90" r="25" fill="#3498db" />
+    <text x="100" y="95" font-family="Arial" font-size="24" text-anchor="middle" fill="white">🤖</text>
+    
+    <!-- Header Text -->
+    <text x="140" y="85" font-family="Arial" font-size="20" fill="white">Stor-a-gentic Assistant</text>
+    <text x="140" y="110" font-family="Arial" font-size="14" fill="#4CAF50">Online</text>
+    
+    <!-- Chat Messages -->
+    <!-- Bot Message 1 -->
+    <rect x="100" y="160" width="400" height="60" rx="15" fill="#f0f0f0" />
+    <text x="120" y="190" font-family="Arial" font-size="14" fill="#333">Hello! I'm your AI storage assistant. How can I help you today?</text>
+    
+    <!-- User Message -->
+    <rect x="300" y="240" width="400" height="60" rx="15" fill="#3498db" />
+    <text x="320" y="270" font-family="Arial" font-size="14" fill="white">I need to book a storage unit for next week.</text>
+    
+    <!-- Bot Message 2 -->
+    <rect x="100" y="320" width="400" height="60" rx="15" fill="#f0f0f0" />
+    <text x="120" y="350" font-family="Arial" font-size="14" fill="#333">I can help you with that! What size storage unit are you looking for?</text>
+    
+    <!-- Input Field -->
+    <rect x="50" y="450" width="600" height="50" rx="25" fill="#f0f0f0" />
+    <text x="80" y="480" font-family="Arial" font-size="14" fill="#666">Type your message...</text>
+    
+    <!-- Send Button -->
+    <circle cx="680" cy="475" r="20" fill="#3498db" />
+    <text x="680" y="480" font-family="Arial" font-size="16" text-anchor="middle" fill="white">→</text>
+    
+    <!-- Features Icons -->
+    <g transform="translate(50, 520)">
+        <!-- Multi-turn Conversations -->
+        <circle cx="50" cy="0" r="20" fill="#3498db" />
+        <text x="50" y="5" font-family="Arial" font-size="16" text-anchor="middle" fill="white">💬</text>
+        <text x="50" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Multi-turn</text>
+        
+        <!-- Smart Booking -->
+        <circle cx="150" cy="0" r="20" fill="#3498db" />
+        <text x="150" y="5" font-family="Arial" font-size="16" text-anchor="middle" fill="white">📅</text>
+        <text x="150" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Booking</text>
+        
+        <!-- RAG Architecture -->
+        <circle cx="250" cy="0" r="20" fill="#3498db" />
+        <text x="250" y="5" font-family="Arial" font-size="16" text-anchor="middle" fill="white">🧠</text>
+        <text x="250" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">RAG</text>
+    </g>
+</svg> 

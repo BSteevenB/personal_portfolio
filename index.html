@@ -272,59 +272,33 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section">
+    <section id="projects" class="section bg-light">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle text-center mb-5">Here are some of my recent projects that showcase my skills and experience.</p>
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <!-- Stor-a-gentic Project Card -->
                     <div class="project-card">
-                        <div class="project-showcase">
-                            <div class="project-image">
-                                <img src="./project_images/stor-agentic-architecture.svg" alt="Stor-a-gentic AI Assistant">
-                                <div class="project-overlay">
-                                    <div class="project-links">
-                                        <!-- <a href="#" class="project-link"><i class="fas fa-link"></i></a> -->
-                                        <a href="https://github.com/BSteevenB/stor-a-gentic" class="project-github" target="_blank"><i class="fab fa-github"></i></a>
-                                    </div>
-                                </div>
+                        <div class="project-header">
+                            <h3>Stor-a-gentic: AI-Powered Storage Assistant</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/BSteevenB/stor-a-gentic" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
                             </div>
-                            <div class="chatbot-demo">
-                                <div class="chatbot-header">
-                                    <div class="chatbot-avatar">
-                                        <i class="fas fa-robot"></i>
-                                    </div>
-                                    <div class="chatbot-info">
-                                        <h4>Stor-a-gentic Assistant</h4>
-                                        <span class="status">Online</span>
-                                    </div>
-                                </div>
-                                <div class="chatbot-messages">
-                                    <div class="message bot">
-                                        <div class="message-content">
-                                            Hello! I'm your AI storage assistant. How can I help you today?
-                                        </div>
-                                    </div>
-                                    <div class="message user">
-                                        <div class="message-content">
-                                            I need to book a storage unit for next week.
-                                        </div>
-                                    </div>
-                                    <div class="message bot">
-                                        <div class="message-content">
-                                            I can help you with that! What size storage unit are you looking for?
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="chatbot-input">
-                                    <input type="text" placeholder="Type your message..." disabled>
-                                    <button class="send-button" disabled><i class="fas fa-paper-plane"></i></button>
-                                </div>
+                        </div>
+                        <div class="project-showcase">
+                            <div class="gif-container">
+                                <img src="./project_images/stor-agentic-architecture.svg" alt="Stor-a-gentic AI Assistant" class="project-gif">
                             </div>
                         </div>
                         <div class="project-content">
-                            <h3>Stor-a-gentic: AI-Powered Storage Customer Assistant</h3>
-                            <p class="tech-stack">
+                            <div class="project-description">
+                                <p>An intelligent AI assistant that provides 24/7 customer support for storage inquiries and solutions. The system uses Mistral 7B via OpenRouter to deliver accurate and helpful responses to customer queries.</p>
+                            </div>
+                            <div class="tech-stack">
                                 <span class="tech-tag">Python</span>
                                 <span class="tech-tag">Mistral 7B</span>
                                 <span class="tech-tag">OpenRouter</span>
@@ -332,7 +306,7 @@
                                 <span class="tech-tag">Google Calendar API</span>
                                 <span class="tech-tag">Voiceflow</span>
                                 <span class="tech-tag">REST API</span>
-                            </p>
+                            </div>
                             <div class="project-features">
                                 <div class="feature">
                                     <i class="fas fa-robot"></i>
@@ -349,22 +323,6 @@
                                     <h4>Store Information</h4>
                                     <p>Quick access to store details, hours, and locations</p>
                                 </div>
-                            </div>
-                            <div class="project-details">
-                                <ul>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Developed a friendly AI customer service assistant using Mistral 7B via OpenRouter, providing 24/7 support for storage inquiries and solutions.
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Integrated Google Calendar for collection service scheduling and Airtable for customer inquiry tracking and service request management.
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Built a conversational interface using Voiceflow with POST/GET endpoints, enabling 24/7 customer support capabilities.
-                                    </li>
-                                </ul>
                             </div>
                             <div class="project-stats">
                                 <div class="stat-item">
@@ -386,81 +344,73 @@
                         </div>
                     </div>
 
-                    <!-- Eat.Curious Project Card (Commented Out)
+                    <!-- React Dashboard Project Card -->
                     <div class="project-card">
+                        <div class="project-header">
+                            <h3>React Dashboard</h3>
+                            <div class="project-links">
+                                <a href="https://react-dashboard-demo.netlify.app" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/BSteeven/react-dashboard" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
                         <div class="project-showcase">
-                            <div class="project-image">
-                                <img src="./project_images/eat-curious.jpg" alt="Eat.Curious Website Recreation">
-                                <div class="project-overlay">
-                                    <div class="project-links">
-                                        <a href="https://eat.curious" class="project-link" target="_blank"><i class="fas fa-link"></i></a>
-                                        <a href="https://github.com/BSteevenB/eat-curious" class="project-github" target="_blank"><i class="fab fa-github"></i></a>
-                                    </div>
-                                </div>
+                            <div class="gif-container">
+                                <img src="project_images/dashboard_preview.gif" alt="React Dashboard Demo" class="project-gif">
                             </div>
                         </div>
                         <div class="project-content">
-                            <h3>Eat.Curious Website Recreation</h3>
-                            <p class="tech-stack">
-                                <span class="tech-tag">HTML5</span>
+                            <div class="project-description">
+                                <p>A modern dashboard application built with React and TypeScript, featuring interactive charts, data tables, and real-time updates. The project demonstrates advanced React concepts including custom hooks, context API, and efficient state management.</p>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
                                 <span class="tech-tag">Tailwind CSS</span>
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">Responsive Design</span>
-                                <span class="tech-tag">UI/UX</span>
-                            </p>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">Redux Toolkit</span>
+                            </div>
                             <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Data Visualization</h4>
+                                    <p>Interactive charts and graphs using Chart.js</p>
+                                </div>
                                 <div class="feature">
                                     <i class="fas fa-mobile-alt"></i>
                                     <h4>Responsive Design</h4>
-                                    <p>Fully responsive layout for all devices</p>
+                                    <p>Fully responsive layout with Tailwind CSS</p>
                                 </div>
                                 <div class="feature">
-                                    <i class="fas fa-paint-brush"></i>
-                                    <h4>Modern UI</h4>
-                                    <p>Clean and modern interface using Tailwind CSS</p>
+                                    <i class="fas fa-sync"></i>
+                                    <h4>Real-time Updates</h4>
+                                    <p>Live data updates and state management</p>
                                 </div>
-                                <div class="feature">
-                                    <i class="fas fa-tachometer-alt"></i>
-                                    <h4>Performance</h4>
-                                    <p>Optimized for fast loading and smooth interactions</p>
-                                </div>
-                            </div>
-                            <div class="project-details">
-                                <ul>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Recreated the Eat.Curious website using Tailwind CSS, implementing a modern and responsive design.
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Optimized the website for performance and accessibility, ensuring smooth user experience across all devices.
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-check-circle"></i>
-                                        Implemented interactive elements and animations to enhance user engagement and visual appeal.
-                                    </li>
-                                </ul>
                             </div>
                             <div class="project-stats">
                                 <div class="stat-item">
-                                    <i class="fas fa-mobile-alt"></i>
-                                    <span>100%</span>
-                                    <p>Responsive</p>
-                                </div>
-                                <div class="stat-item">
                                     <i class="fas fa-tachometer-alt"></i>
-                                    <span>Fast</span>
-                                    <p>Performance</p>
+                                    <span>95%</span>
+                                    <p>Performance Score</p>
                                 </div>
                                 <div class="stat-item">
-                                    <i class="fas fa-paint-brush"></i>
-                                    <span>Modern</span>
-                                    <p>Design</p>
+                                    <i class="fas fa-universal-access"></i>
+                                    <span>100%</span>
+                                    <p>Accessibility</p>
+                                </div>
+                                <div class="stat-item">
+                                    <i class="fas fa-bolt"></i>
+                                    <span>4.8s</span>
+                                    <p>Load Time</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    -->
                 </div>
             </div>
         </div>
